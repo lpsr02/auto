@@ -1,0 +1,73 @@
+.heder{ border-bottom:2px solid #9abc31;
+        height: 100px;
+        background-image: url("hearder img.png");
+        background-repeat:no-repeat ;
+        background-size: 357px auto;
+}
+
+.logo-automate{ position:absolute;width: 140px;
+               object-position: 0px -37px;
+               margin-left: 184.64px;
+}
+
+.whatsapp-num{ font-weight: 600;
+             letter-spacing: 1px;
+             font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+              font-size: 14px;}
+/* navbar css style  */
+
+a {text-decoration: none;
+  display: inline-block;
+  position: relative;
+    }
+    a:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: #9abc31;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after { 
+      width: 100%; 
+      left: 0; 
+    }
+    @media screen and (max-height: 300px) {
+          ul {
+                margin-top: 40px;
+          }
+    }
+.sec-2-dv-1{ font-family: "source sans pro";
+             font-size: 44px;
+             font-weight:600;
+            color:#575757;
+             text-align: center;}
+.hed-div-a {width: 800px;
+  /* margin-left: 200px; */
+}
+
+.gj{display: absolute;
+    z-index: 1;
+  display: none;}
+  .gj:hover{display: block;}
+.saras-logo{width: 120px;}
+.card-title{color: rgb(210,133,44);
+  font-size: 33px;
+  font-weight: 700;
+text-align: center;}
+.card-text{color: rgb(210,133,44);
+  font-size: 20px;
+  
+text-align: center;}
+.btn-pos{width:140px;background-color: #9abc31; padding: 10px 10px; text-align: center; border-radius: 5px;}
+.btn-pos>a{color:white;  font-size: 20px; font-weight: 600;}
+.container-sm>h3{font-size: 22px; text-align: center; font-weight: 500; 
+  font-family: "cardo"; letter-spacing: 1px;color:#575757; line-height: 1.6;}
+  .list-foot{color:#575757; font-size: 17px; line-height: 2.5;}
+  .list-foot:hover{color:#9abc31;}
+ 
+  .bg-gray{background-color: #f3f3f3;}
